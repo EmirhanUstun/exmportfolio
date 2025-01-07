@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grafik Tasarımcı Portfolyosu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Anasayfa (Hero Section) -->
+     <header class="hero">
+        <h1>Hello, I am Bert Conner</h1>
+        <p>Professional Graphic Designer</p>
+        <a href="#portfolio" class="btn">See My Works</a>
+     </header>
+
+     <!-- Çalışmalar Bölümü -->
+      <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Bert Connor. For more than 5 years I have been working in the field of graphic design.
+            I provide professional services in many areas such as logo design, social media visuals, and poster design.
+        </p>
+      </section>
+
+      <!-- Çalışma Bölümü -->
+       <section id="portfolio" class="portfolio">
+        <h2>My Work</h2>
+        <div class="gallery">
+            <div class="work-item" data-category="logo">
+                <img src="gallery/logotasarim1.png" alt="Tasarım 1">
+                <p>Logo Design - Brand VHYTANES</p>
+            </div>
+            <div class="work-item" data-category="logo">
+                <img src="gallery/logotasarim2.png" alt="Tasarım 2">
+                <p>Logo Design - Brand LEILA</p>
+            </div>
+            <div class="work-item" data-category="logo">
+                <img src="gallery/logotasarim3.png" alt="Tasarım 3">
+                <p>Logo Design - Brand ARCHITEN</p>
+            </div>
+            <div class="work-item" data-category="logo">
+                <img src="gallery/logotasarim4.png" alt="Tasarım 4">
+                <p>Logo Design - Brand ARTVENUE</p>
+            </div>
+            <div class="work-item" data-category="social-media">
+                <img src="gallery/socialtasarim1.jpg" alt="Tasarım 5">
+                <p>Social Media Image - Brand GRAPHICS FAMILY</p>
+            </div>
+            <div class="work-item" data-category="poster">
+                <img src="gallery/postertasarim1.jpg" alt="Tasarım 6">
+                <p>Poster Design - Event FissingForLitter</p>
+            </div>
+        </div>
+        <div class="portfolio-filters">
+            <button class="filter-btn" data-category="all">All</button>
+            <button class="filter-btn" data-category="logo">Logo Design</button>
+            <button class="filter-btn" data-category="social-media">Social Media Design</button>
+            <button class="filter-btn" data-category="poster">Poster Design</button>
+        </div>
+       </section>
+
+       <!--Hizmetler Bölümü -->
+       <section id="services" class="services">
+        <h2>My Services</h2>
+        <ul>
+            <li>Logo Design</li>
+            <li>Social Media Visual Design</li>
+            <li>Poster and Brochure Design</li>
+            <li>Corporate Identity Design</li>
+          </ul>
+        </section>
+      
+        <!-- İletişim Bölümü -->
+        <section id="contact" class="contact">
+          <h2>Contact</h2>
+          <form>
+            <input type="text" placeholder="Adınız" required>
+            <input type="email" placeholder="E-posta Adresiniz" required>
+            <textarea placeholder="Mesajınız" rows="5" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </section>
+      
+        <!-- Footer -->
+        <footer>
+          <p>&copy; 2025 Bert Connor. All rights reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+      
+      </body>
+</html>
